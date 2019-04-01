@@ -1,0 +1,127 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*****HEADER*****/
+
+.top-bar h1 {
+  display: inline-block;
+  font-size: 1.6em;
+  margin: .25em 0 0 1.55em;
+  text-transform: uppercase;
+}
+
+#rogue /**SPAN h1**/ {
+  color: #77a466;
+}
+
+.top-bar h1,
+.nav li {
+  line-height: 1.8em;
+}
+
+.nav {
+  float: right;
+  margin: 1em 2em 0 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+a {
+  color: #77a466;
+  font-size: .9em;
+  font-weight: bold;
+  padding: .5em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/**IMAGE**/
+
+#borderimg {
+  border: 4px solid #77a466;
+}
+
+/*****ABOUT*****/
+
+#welcome-headline {
+  color: #77a466;
+  font-size: 1.29em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 1.6em 0 .75em 1.8em;
+}
+
+#business-description {
+  font-size: 1em;
+  line-height: 1.56em;
+  margin: 0;
+  padding: 0 4em 2.4em 2.4em;
+}
+
+/*****BUSINESS DETAILS*****/
+
+.column {
+  border: 1 px solid gray;
+  float: left;
+  width: 33.33%;
+  height: 215px;
+}
+
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0 0 0 2.5em;
+  margin: 0 auto;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/**list**/
+.menu-specials {
+  color: #77a466;
+  list-style: none;
+  font-size: 1em;
+  text-align: left;
+  line-height: 2em;
+}
+
+#review-quote {
+  font-size: .9em;
+  line-height: 1.6em;
+  text-align: left;
+  padding: 1.1em 1.75em 0 2.7em;
+}
+
+#address  {
+  line-height: 1.75em;
+  padding: 1em 0 0 2.5em;
+  text-size: 1em;
+  text-align: left;
+}
+
+/*****FOOTER*****/
+
+h4 {
+  color: black;
+  font-weight: bold;
+  text-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#cursive {
+  color: #77a466;
+  text-size: 2em;
+  text-transform: lowercase;
+  font-family: 'Satisfy', cursive;
+}
